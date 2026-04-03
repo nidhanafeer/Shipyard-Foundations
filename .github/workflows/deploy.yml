@@ -22,3 +22,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./nidhanafeer@mulearn/task3
           publish_branch: gh-pages
+          force_orphan: true
